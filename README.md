@@ -20,4 +20,36 @@ A MOSFET in saturation and acts as a constant current source, making it useful f
 
 Drain current equation: *Id = (1/2) kn Vov², where *Vov = Vgs - Vth.
 The amplifier gain follows Av = -gm Rd.
+
+# Procedure:
+• Create a New Project
+
+• Set Up the values for MOSFET
+
+• Configure the NMOS transistor (CMOSN) with:
+  Length: 291nm
+  Width: 214nm
+  
+• Perform DC Analysis
+
+• Connect all circuit components properly.
+  Apply:
+  Vdd = 1.8V
+  Vin = 0.9V
+  
+• Run DC analysis to obtain:
+  Vout
+  Id
+  
+• Run Transient Analysis
+  Apply a sine wave input:
+  Vin = 0.9V
+  Amplitude = 50mV
+  Frequency = 1kHz
+  Run transient analysis
+  
+• Run AC Analysis
+  Include all required library files.
+  Run AC analysis with:
+  Start and end frequency: 0.1Hz to 1THz
           
