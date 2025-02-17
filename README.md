@@ -20,7 +20,7 @@ The current equation in saturation mode is given by Id = (1/2) kn Vov²,
 where:
 Vov = Vgs - Vth
 
-The voltage gain is given by: Av = -gm RdorAv = Vout/Vin
+The voltage gain is given by: Av = -gm Rd  or Av = Vout/Vin
 
 A MOSFET in saturation and acts as a constant current source, making it useful for amplifier circuits.
 
