@@ -35,7 +35,7 @@ The amplifier gain follows Av = -gm Rd.
 
 • Configure the NMOS transistor (CMOSN) with:
   Length: 180nm
-  Width: 0.2u
+  Width: 0.2um
   
 • Perform DC Analysis
 
