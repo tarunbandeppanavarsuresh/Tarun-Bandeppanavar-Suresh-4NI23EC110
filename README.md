@@ -59,4 +59,7 @@ The amplifier gain follows Av = -gm Rd.
   Include all required library files.
   Run AC analysis with:
   Start and end frequency: 0.1Hz to 1THz
+
+# Calculation :
+ 
           
