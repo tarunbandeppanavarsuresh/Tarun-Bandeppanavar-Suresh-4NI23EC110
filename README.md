@@ -132,3 +132,46 @@ Low power consumption
 Simple structure
 Compatibility with VLSI technology
 
+# AC Analysis
+A sinusoidal input is included in the AC analysis through a modification of gate voltage.
+
+# Sinusoidal Input Voltage
+
+DC Offset: 0.9V
+Amplitude: 50mV
+Frequency: 1kHz
+Frequency Sweep Parameters
+
+Type: Decade
+Sweeps per Decade: 20
+Start Frequency: 0.1Hz
+Stop Frequency: 1THz
+By analyzing the AC, one can determine gain, bandwidth, phase, and other characteristics of the amplifier's frequency response.
+
+# DC Analysis
+Our approach in conducting DC analysis involves identifying the quiescent operating point (ID) and node voltages that are required to operate the MOSFET.
+
+Supply Voltage (VDD): 1.8V
+Gate Voltage (VG): 0.9V
+Power Budget (P): 50μW
+P = VDD * ID
+
+ID = P/VDD
+
+ID = 50μW / 1.8V
+
+ID = 27.7μA
+
+# Transient Analysis
+By examining the transient response of the amplifier, it is possible to determine its behavior over time when subjected to the sinusoidal input.
+
+# Parameters
+
+Stop Time: 5m (5 milliseconds)
+The transient analysis provides information about the amplifier's time-domain behavior, such as distortion, settling time, and waveform reproduction.
+
+
+# Inference 
+
+
+
