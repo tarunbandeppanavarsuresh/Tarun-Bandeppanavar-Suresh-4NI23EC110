@@ -162,6 +162,9 @@ ID = 50μW / 1.8V
 
 ID = 27.7μA
 
+![image](/storage/emulated/0/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/circuit 2 dc analysis.jpg)
+
+
 # Transient Analysis
 By examining the transient response of the amplifier, it is possible to determine its behavior over time when subjected to the sinusoidal input.
 
