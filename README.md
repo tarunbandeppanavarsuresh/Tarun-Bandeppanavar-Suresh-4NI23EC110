@@ -162,7 +162,6 @@ ID = 50μW / 1.8V
 
 ID = 27.7μA
 
-![image](/storage/emulated/0/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/circuit 2 dc analysis.jpg)
 
 
 # Transient Analysis
