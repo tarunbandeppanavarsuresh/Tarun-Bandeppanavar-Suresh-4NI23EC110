@@ -109,5 +109,13 @@ AC analysis plays a vital role in designing amplifiers with tailored gain and un
 
 By performing comprehensive analysis, designers can ensure the amplifier circuit is properly designed, optimized, and stable.
 
+# Circuit 2: CMOS Amplifier Simulation
  
-          
+# Aim
+Conduct DC analysis, Transient analysis, and AC analysis of a Common Source (CS) amplifier circuit and extract key parameters using LTSpice.
+
+# Components
+MOSFET: nmos4, pmos4
+Resistor: 1k ohm
+Voltage Supply: 1.8V, 0.9V
+**Connecting Wires`
