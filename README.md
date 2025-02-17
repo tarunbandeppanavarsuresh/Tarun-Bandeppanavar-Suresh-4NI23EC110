@@ -173,5 +173,5 @@ The transient analysis provides information about the amplifier's time-domain be
 
 # Inference 
 
-
+The width of a MOSFET has a direct impact on its drain current, with NMOS transistors exhibiting a more pronounced effect than PMOS transistors. Increasing the width of a MOSFET enhances its gain. Furthermore, an inversion of the input signal is observed at the output, resulting in a 180-degree phase shift between the input and output waveforms.
 
