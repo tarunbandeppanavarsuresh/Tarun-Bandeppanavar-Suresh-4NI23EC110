@@ -3,7 +3,7 @@
   Basic CS amplifier Characterization in LTspice
 using 180 nm technology library.
 # Components Required : 
-  Mosfet(nmos4 ,pmos4 ), Resistor(1k), voltage supply(1.8V,0.9V) and connecting wires.
+  Mosfet(nmos4 ,pmos4 ), Resistor(1k), voltage supply(1.8V,0.7V) and connecting wires.
 # Theory :
 A MOSFET is a type of transistor used for amplifying or switching electronic signals. 
 
@@ -42,7 +42,7 @@ The amplifier gain follows Av = -gm Rd.
 • Connect all circuit components properly.
   Apply:
   Vdd = 1.8V
-  Vin = 0.9V
+  Vin = 0.7V
   
 • Run DC analysis to obtain:
   Vout
@@ -50,7 +50,7 @@ The amplifier gain follows Av = -gm Rd.
   
 • Run Transient Analysis
   Apply a sine wave input:
-  Vin = 0.9V
+  Vin = 0.7V
   Amplitude = 50mV
   Frequency = 1kHz
   Run transient analysis
@@ -80,7 +80,6 @@ Stop Time = 5ms.
 
 This enables us to investigate the response of the amplifier to the Sinusoidal input signal in the time domain, capturing its transient performance.
 
-![image alt].(/storage/emulated/0/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20250217-WA0026.jpg)
 
 # AC Analysis
 The AC analysis helps us study the frequency response of the amplifier. The parameters used for this simulation are:
@@ -97,6 +96,17 @@ A probe is placed at the Drain (output) and another at Vg (input) to visualize t
 
 This helps in understanding the amplifier's gain and bandwidth.
 
+# Inference :
+
+The width of a MOSFET directly influences its current-carrying capacity, which in turn impacts the overall circuit's efficiency.
+
+When operating in the saturation region, the MOSFET's performance is optimized.
+
+Conducting transient analysis is essential for assessing the circuit's responsiveness to dynamic signals, particularly in high-speed applications.
+
+AC analysis plays a vital role in designing amplifiers with tailored gain and understanding their frequency-dependent behavior.
+
+By performing comprehensive analysis, designers can ensure the amplifier circuit is properly designed, optimized, and stable.
 
  
           
