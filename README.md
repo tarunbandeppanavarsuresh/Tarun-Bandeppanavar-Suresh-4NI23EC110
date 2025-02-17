@@ -61,5 +61,40 @@ The amplifier gain follows Av = -gm Rd.
   Start and end frequency: 0.1Hz to 1THz
 
 # Calculation :
+
+The Drain current (Id) Can be determined:
+
+P = V * I
+
+I = P / V
+
+I = 50μW / 1.8V
+
+I = 27.7μA
+
+
+# Transient Analysis
+To observe the amplifier's behavior over time, a Transient analysis is performed with the following parameter:
+
+Stop Time = 5ms.
+
+This enables us to investigate the response of the amplifier to the Sinusoidal input signal in the time domain, capturing its transient performance.
+
+# AC Analysis
+The AC analysis helps us study the frequency response of the amplifier. The parameters used for this simulation are:
+
+Sweep Type = Decade.
+
+Number of Points per Decade = 20.
+
+Start Frequency = 0.1 Hz.
+
+Stop Frequency = 1THz.
+
+A probe is placed at the Drain (output) and another at Vg (input) to visualize the frequency response.
+
+This helps in understanding the amplifier's gain and bandwidth.
+
+
  
           
