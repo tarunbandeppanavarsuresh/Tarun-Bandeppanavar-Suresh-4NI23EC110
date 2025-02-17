@@ -111,11 +111,24 @@ By performing comprehensive analysis, designers can ensure the amplifier circuit
 
 # Circuit 2: CMOS Amplifier Simulation
  
-# Aim
+# Aim :
 Conduct DC analysis, Transient analysis, and AC analysis of a Common Source (CS) amplifier circuit and extract key parameters using LTSpice.
 
-# Components
+# Components :
 MOSFET: nmos4, pmos4
 Resistor: 1k ohm
 Voltage Supply: 1.8V, 0.9V
 **Connecting Wires`
+
+# Drain Current Expression :
+
+Id = (1/2) * kn * Vov^2
+
+# Theory :
+MOSFETs play a crucial role in electronics due to their:
+
+Compact size
+Low power consumption
+Simple structure
+Compatibility with VLSI technology
+
