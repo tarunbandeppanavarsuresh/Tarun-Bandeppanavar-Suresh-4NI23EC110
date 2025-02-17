@@ -80,6 +80,8 @@ Stop Time = 5ms.
 
 This enables us to investigate the response of the amplifier to the Sinusoidal input signal in the time domain, capturing its transient performance.
 
+![image alt](/storage/emulated/0/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20250217-WA0026.jpg)
+
 # AC Analysis
 The AC analysis helps us study the frequency response of the amplifier. The parameters used for this simulation are:
 
