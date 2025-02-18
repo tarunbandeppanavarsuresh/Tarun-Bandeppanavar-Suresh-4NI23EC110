@@ -174,6 +174,9 @@ By examining the transient response of the amplifier, it is possible to determin
 Stop Time: 5m (5 milliseconds)
 The transient analysis provides information about the amplifier's time-domain behavior, such as distortion, settling time, and waveform reproduction.
 
+# Loop gain 
+  loop gain = 36.72 db
+
 
 # Inference 
 
