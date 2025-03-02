@@ -27,11 +27,17 @@
   Iss = 1.2222 mA
   
 Id1 = Id2=Iss/2=0.611mA
+
 Rd =( Vdd -Vocm)/Id1
+
    = (1.8-1.11)/0.611*10^-3
+   
    = 1.145k ohm
-Rss = Vp/Iss
-    = 0.4/1.22*100^-3
+   
+   Rss = Vp/Iss
+   
+  = 0.4/1.22*100^-3
+
 Rss = 327.33 ohm
 
 # DC Analysis
