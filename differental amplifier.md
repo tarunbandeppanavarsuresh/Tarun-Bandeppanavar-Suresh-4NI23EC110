@@ -15,7 +15,7 @@
   P = 2.2mw
   Vicm = 0.95v
   Vocm = 1.11v
-Iss = P/v
+  Iss = P/v
    = 2.2*10^-3 /1.8
   Iss = 1.2222 mA
 Id1 = Id2=Iss/2=0.611mA
@@ -31,9 +31,11 @@ Rss = 327.33 ohm
   so for this circuit
     W = 180nm
     L = .109*10^-3 m
-    ![Uploading WhatsApp Image 2025-03-02 at 22.49.22_ebc088db.jpg…]()
+![WhatsApp Image 2025-03-02 at 22 49 22_652ecb05](https://github.com/user-attachments/assets/42f119bd-2ca4-4ca5-8060-1b5a8d8fcc1c)
 Q point = (Vgs,Id) = (0.5497v,0.611mA)
-Now we can 
+Now we can vary vdd so that we can know how the q point varies accordingly
+
+
  
 
 
