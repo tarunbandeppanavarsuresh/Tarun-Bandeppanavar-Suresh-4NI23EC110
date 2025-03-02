@@ -1,4 +1,4 @@
-# Lab3
+
 # Aim
   Design and analyze the mos differential amplifier circuit for the following specification.
 # Components Required
@@ -32,8 +32,12 @@ Rss = 327.33 ohm
     W = 180nm
     L = .109*10^-3 m
 ![WhatsApp Image 2025-03-02 at 22 49 22_652ecb05](https://github.com/user-attachments/assets/42f119bd-2ca4-4ca5-8060-1b5a8d8fcc1c)
+
+
+
 Q point = (Vgs,Id) = (0.5497v,0.611mA)
 Now we can vary vdd so that we can know how the q point varies accordingly
+for Vdd
 
 
  
