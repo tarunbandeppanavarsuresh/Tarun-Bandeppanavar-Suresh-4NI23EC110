@@ -11,13 +11,21 @@
 ![WhatsApp Image 2025-03-02 at 22 50 09_fb120edd](https://github.com/user-attachments/assets/8c4b758e-f0c6-4ee9-9d65-1365b5a0e593)
 # Calculation(theoretical)
   Vdd = 1.8v
+
   Vp = 0.4v
+
   P = 2.2mw
+
   Vicm = 0.95v
+  
   Vocm = 1.11v
+  
   Iss = P/v
+  
    = 2.2*10^-3 /1.8
+   
   Iss = 1.2222 mA
+  
 Id1 = Id2=Iss/2=0.611mA
 Rd =( Vdd -Vocm)/Id1
    = (1.8-1.11)/0.611*10^-3
