@@ -116,6 +116,13 @@ Av = 11.3726 dB
 
 : Here the resistor is replaced by an Mosfet.
 : We should set appropiate Vb value to make mosfet to work 
+: For this Mosfet the Vb which we given is 0.6v because it should be greater than vt.
+: the W/L we choosen is
+
+L = 180nm
+
+W = 68.8*10^-6 m
+
 
 # DC Analysis
 ![WhatsApp Image 2025-03-02 at 22 46 17_0f1c69f3](https://github.com/user-attachments/assets/b5604c74-3583-460b-b097-38fece417a60)
