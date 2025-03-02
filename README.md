@@ -1,4 +1,4 @@
-# Tarun-Bandeppanavar-Suresh-4NI23EC110
+# Lab1
 # Experiment 1
 # Aim :
   Basic CS amplifier Characterization in LTspice
