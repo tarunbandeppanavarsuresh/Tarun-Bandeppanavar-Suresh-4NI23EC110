@@ -115,8 +115,11 @@ Av = 11.3726 dB
 ![WhatsApp Image 2025-03-02 at 22 43 44_cb42ec7e](https://github.com/user-attachments/assets/df5ba3c5-13a1-49d3-8f5c-ba43cf984952)
 
 : Here the resistor is replaced by an Mosfet.
+
 : We should set appropiate Vb value to make mosfet to work 
+
 : For this Mosfet the Vb which we given is 0.6v because it should be greater than vt.
+
 : the W/L we choosen is
 
 L = 180nm
