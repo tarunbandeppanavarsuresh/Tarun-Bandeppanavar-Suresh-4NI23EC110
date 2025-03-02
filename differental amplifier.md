@@ -43,9 +43,11 @@ Rss = 327.33 ohm
 # DC Analysis
   since to get apropiate Id obtained in theoretical we should vary w/l
   so for this circuit
-    W = 180nm
+  
+   W = 180nm
     
    L = .109*10^-3 m
+   
    
 ![WhatsApp Image 2025-03-02 at 22 49 22_652ecb05](https://github.com/user-attachments/assets/42f119bd-2ca4-4ca5-8060-1b5a8d8fcc1c)
 
