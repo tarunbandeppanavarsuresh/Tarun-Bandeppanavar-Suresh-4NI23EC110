@@ -32,6 +32,9 @@ Rss = 327.33 ohm
     W = 180nm
     L = .109*10^-3 m
     ![Uploading WhatsApp Image 2025-03-02 at 22.49.22_ebc088db.jpg…]()
+Q point = (Vgs,Id) = (0.5497v,0.611mA)
+Now we can 
+ 
 
 
 
